@@ -86,6 +86,7 @@ module.exports = function gruntSpritesmith (grunt) {
       engine: data.engine,
       algorithm: data.algorithm,
       padding: data.padding || 0,
+	  extend: data.extend || 0,
       algorithmOpts: data.algorithmOpts || {},
       engineOpts: data.engineOpts || {},
       exportOpts: imgOpts
